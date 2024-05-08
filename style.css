@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --white: #fafafb;
+    --violeta: #642b73;
+    --azulcito: #3a6186;
+}
