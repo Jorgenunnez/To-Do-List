@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    color: var(--white);
+    
 }
 /*Variables de colores*/
 :root{
@@ -32,12 +32,18 @@ body{
 
 /*PERFIL*/
 
+.perfil h1{
+    color: var(--white);
+}
+
 .perfil span{
 letter-spacing: 1px;
+color: var(--white);
 }
 
 #fecha{
 padding: 50px 0 5px 0;
+color: var(--white);
 }
 
 /*AGREGAR TAREA*/
@@ -80,11 +86,10 @@ color: var(--negrito);
 
 .Tasks h3{
     margin-bottom: 20px;
+    color: var(--white);
+}
 
-}
-.Tasks p{
-    color: var(--blancogris);
-}
+
 
 .Tasks li{
     display: flex;
@@ -105,6 +110,8 @@ color: var(--negrito);
     color: var(--blancogris);
     cursor: pointer;
 }
+
+
 
 .Tasks > ul p{
 font-size: 1.2rem;
