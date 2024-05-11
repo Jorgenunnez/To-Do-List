@@ -32,10 +32,6 @@ body{
 
 /*PERFIL*/
 
-.perfil h1{
-
-}
-
 .perfil span{
 letter-spacing: 1px;
 }
@@ -54,6 +50,7 @@ padding: 50px 0 5px 0;
     align-items: center;
     padding: 10px;
     gap: 70px;
+    margin: 40px 0;
 }
 
 .Add-Task input{
@@ -95,12 +92,25 @@ color: var(--negrito);
     border-radius: 15px;
     padding: 10px;
     align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
+    color: var(--white);
 }
 
 .Tasks i{
+    font-size: 25px;
+}
 
+.Tasks i:hover{
+    color: var(--blancogris);
+    cursor: pointer;
 }
 
 .Tasks > ul p{
+font-size: 1.2rem;
+}
 
+.line-through{
+    text-decoration: line-through;
+    color: var(--blancogris);
 }
