@@ -62,7 +62,7 @@ botonenter.addEventListener('click',()=>{
             eliminado : false
         })
     }
-    localStorage.setItem('TODO',JSON,stringify(list))
+    localStorage.setItem('TODO',JSON.stringify(list))
     input.value=''
     id++
 });
@@ -81,7 +81,7 @@ document.addEventListener('keyup', function(event){
                 eliminado : false
             })
         }
-        localStorage.setItem('TODO',JSON,stringify(list))
+        localStorage.setItem('TODO',JSON.stringify(list))
         input.value=''
         id++
     }
@@ -100,7 +100,7 @@ lista.addEventListener('click',function(event){
         else if(elementData==='Eliminado'){
             tareaEliminada(element)
         }
-        localStorage.setItem('TODO',JSON,stringify(list))
+        localStorage.setItem('TODO',JSON.stringify(list))
 })
 
 
@@ -108,7 +108,7 @@ lista.addEventListener('click',function(event){
 
 let data = localStorage.getItem('TODO')
 if(data){
-    list.JSON.parse(data)
+    list=JSON.parse(data)
     id= list.length
     cargarlista(list)
 }else{
